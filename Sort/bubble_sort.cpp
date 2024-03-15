@@ -14,10 +14,15 @@ void display(int arr[],int size){
 }
 void bubble(int arr[],int size){
     for(int j=1;j<size;j++){
+        bool swapped=false;
         for(int i=0;i<size-1;i++){
         if(arr[i]>arr[i+1]){
             swap(arr[i],arr[i+1]);
+            swapped=true;
         }
+    }
+    if(swapped==false){
+        break;
     }
 
     }

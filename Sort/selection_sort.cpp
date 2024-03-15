@@ -2,13 +2,13 @@
 using namespace std;
 void selection(int arr[],int size){
     for(int i=0;i<size-1;i++){
-        int midIndex=i;
+        
         for(int j=i+1;j<size;j++){
-            if(arr[j]<arr[midIndex]){
-                midIndex=j;
+            if(arr[i]>arr[j]){
+                
+            swap(arr[i],arr[j]);
 
             }
-            swap(arr[midIndex],arr[i]);
         }
     }
 }
