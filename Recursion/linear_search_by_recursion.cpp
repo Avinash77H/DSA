@@ -18,10 +18,10 @@ int main(){
     int key=1;
     int ans=linearSearch(arr,size,key);
     if(ans){
-        cout<<"key is found"<<endl;
+        cout<<"key is present"<<endl;
     }
     else{
-        cout<<"key is not found"<<endl;
+        cout<<"key is  absent"<<endl;
     }
 
     return 0;
