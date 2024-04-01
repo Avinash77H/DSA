@@ -31,7 +31,7 @@ void insertHead(int data){
          
          
     } 
-} 
+}
 void insertEnd(int data){ 
     struct Node*ptr=head; 
     if(head==NULL){ 
